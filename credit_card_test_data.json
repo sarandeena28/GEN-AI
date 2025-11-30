@@ -1,0 +1,39 @@
+{
+    "positiveTestData": {
+        "firstName": "Alice",
+        "lastName": "Thompson",
+        "email": "alice.thompson@example.com",
+        "phoneNumber": "416-555-2390",
+        "address": "22 Bay Street, Toronto, ON M5J 2N8, Canada",
+        "city": "Toronto",
+        "state": "ON",
+        "zipCode": "M5J2N8",
+        "country": "Canada",
+        "dateOfBirth": "1988-05-12",
+        "income": 82000.0,
+        "employmentStatus": "Full-Time",
+        "creditScore": 760,
+        "cardType": "Visa Platinum",
+        "cardLimit": 12000.0,
+        "eligibilityStatus": "Eligible"
+    },
+    "negativeTestData": {
+        "firstName": "Mark",
+        "lastName": "Reynolds",
+        "email": "invalid-email",
+        "phoneNumber": "123",
+        "address": "Unknown",
+        "city": "Unknown",
+        "state": "Unknown",
+        "zipCode": "00000",
+        "country": "Canada",
+        "dateOfBirth": "2005-11-02",
+        "income": 15000.0,
+        "employmentStatus": "Unemployed",
+        "creditScore": 480,
+        "cardType": "Mastercard",
+        "cardLimit": 500.0,
+        "eligibilityStatus": "Rejected",
+        "errorMessage": "Customer is underage, invalid email format, insufficient income, poor credit score, and no active employment."
+    }
+}
